@@ -25,17 +25,17 @@ public class VentanaPrincipal extends JFrame
 
         // Crear y agregar el PanelEntrada
         miPanelEntradaDatos = new PanelEntradaDatos();
-        miPanelEntradaDatos.setBounds(10,10,660,240);
+        miPanelEntradaDatos.setBounds(10,10,600,240);
         this.add(miPanelEntradaDatos);
 
         // Crear y agregar el PanelOperaciones
         miPanelOperaciones = new PanelOperaciones();
-        miPanelOperaciones.setBounds(10,255,660,100);
+        miPanelOperaciones.setBounds(10,255,600,100);
         this.add(miPanelOperaciones);
 
         // Crear y agregar el PanelEntrada
         miPanelResultados = new PanelResultados();
-        miPanelResultados.setBounds(10,360,660,290);
+        miPanelResultados.setBounds(10,360,600,290);
         this.add(miPanelResultados);
         
         miDialogoDirector = null;
@@ -43,7 +43,7 @@ public class VentanaPrincipal extends JFrame
         
 
         // Caracteristicas de la ventana
-        this.setTitle("APP FIFA");
+        this.setTitle("FUCHIVOL DE LA FIFA");
         this.setSize(700,700);
         //this.setLocation(100,100);
         this.setLocationRelativeTo(null);

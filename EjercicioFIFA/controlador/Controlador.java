@@ -70,9 +70,9 @@ public class Controlador implements ActionListener
                 int experiencia = Integer.parseInt(vista.miDialogoDirector.getExperiencia());
                 int dia = Integer.parseInt(vista.miDialogoDirector.getDia());
                 int mes = Integer.parseInt(vista.miDialogoDirector.getMes());
-                int año = Integer.parseInt(vista.miDialogoDirector.getAño());
-                modelo.director(nombre, experiencia, dia, mes, año);
-                vista.miPanelResultados.mostrarResultado("Datos del director: \nNombre = " + modelo.getNombre() + "\nExperiencia = " + modelo.getExperiencia() + "\nFecha de nacimiento = " + modelo.getDia() + "/" + modelo.getMes() + "/" + modelo.getAño());
+                int anio = Integer.parseInt(vista.miDialogoDirector.getAnio());
+                modelo.director(nombre, experiencia, dia, mes, anio);
+                vista.miPanelResultados.mostrarResultado("Datos del director: \nNombre = " + modelo.getNombre() + "\nExperiencia = " + modelo.getExperiencia() + "\nFecha de nacimiento = " + modelo.getDia() + "/" + modelo.getMes() + "/" + modelo.getAnio());
                 vista.miDialogoDirector.cerrarDialogo();
             }
             if(comando.equals("aceptar2"))
